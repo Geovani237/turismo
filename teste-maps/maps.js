@@ -40,7 +40,12 @@ function initMap() {
     let MarkerArray = [
         {
             location: { lat:-22.75797, lng:-47.3535 },
-            content: `<img src="botanico.jpg" width="400" height="300" alt="foto"> <br> <h2>Jardim Botânico</h2> <p> Endereço: Av. Brasil Sul, 400 - Parque Res. Nardini, Americana - SP, 13465-810</p> <p> Telefone: (19) 3407-4452 </p> `
+            content: 
+            `<img src="botanico.jpg" width="400" height="300" alt="foto">
+            <br> 
+            <h2>Jardim Botânico</h2>
+            <p> Endereço: Av. Brasil Sul, 400 - Parque Res. Nardini, Americana - SP, 13465-810</p>
+            <p> Telefone: (19) 3407-4452 </p> `
         },
 
         { location: { lat:-22.7533, lng:-47.3528 },
