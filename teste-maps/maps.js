@@ -41,7 +41,7 @@ function initMap() {
         {
             location: { lat:-22.75797, lng:-47.3535 },
             content: 
-            `<img src="botanico.jpg" width="400" height="300" alt="foto">
+            `<img src="img/botanico.jpg" width="400" height="300" alt="foto">
             <br> 
             <h2>Jardim Botânico</h2>
             <p> Endereço: Av. Brasil Sul, 400 - Parque Res. Nardini, Americana - SP, 13465-810</p>
@@ -49,14 +49,14 @@ function initMap() {
         },
 
         { location: { lat:-22.7533, lng:-47.3528 },
-            content: `<img src="ecologico.jpg" width="400" height="300" alt="foto"> <br> <h2>Parque Ecológico</h2> <p>Endereço: Av. Brasil, 2525 - Jardim Ipiranga, Americana - SP, 13468-000</p> <p>Telefone: (19) 3406-2075 </p>`
+            content: `<img src="img/ecologico.jpg" width="400" height="300" alt="foto"> <br> <h2>Parque Ecológico</h2> <p>Endereço: Av. Brasil, 2525 - Jardim Ipiranga, Americana - SP, 13468-000</p> <p>Telefone: (19) 3406-2075 </p>`
         },
 
-        { location: { lat:-22.6950, lng:-47.3031 }, content: `<img src="img.jpg" width="400" height="300" alt="foto"> <br> <h2>Museu Casarão</h2> <p> Endereço: Av. Nicolau João Abdalla, 5005 - Vila Bertini, Americana - SP, 13473-625 </p> <p> Telefone: (19) 3469-1898 </p>` },
+        { location: { lat:-22.6950, lng:-47.3031 }, content: `<img src="img/casarao.jpg" width="400" height="300" alt="foto"> <br> <h2>Museu Casarão</h2> <p> Endereço: Av. Nicolau João Abdalla, 5005 - Vila Bertini, Americana - SP, 13473-625 </p> <p> Telefone: (19) 3469-1898 </p>` },
 
         {
             location: { lat: -22.7148, lng:-47.3294},
-            content : `<img src="muller.jpg" width="400" height="300" <br> <h2>Casa de Cultura Hermann Müller</h2> <p>Endereço: R. Carioba, 2001 - Carioba, Americana - SP, 13472-560</p> <p>Telefone: (19) 3462-6048</p>`
+            content : `<img src="img/muller.jpg" width="400" height="300" <br> <h2>Casa de Cultura Hermann Müller</h2> <p>Endereço: R. Carioba, 2001 - Carioba, Americana - SP, 13472-560</p> <p>Telefone: (19) 3462-6048</p>`
         }
 
 
