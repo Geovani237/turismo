@@ -38,7 +38,7 @@
                 <input type="text" name="latitude" id="latitude">
             </label><br>
 
-            <button type="submit" onclick="InseriNoMapa()">Cadastrar</button>
+            <button type="submit">Cadastrar</button>
         </div>
     </form>
     <?php include_once "footer.php" ?>

@@ -14,11 +14,40 @@
 
     <div id="map"></div>
 
+    <!-- Colocar um PHP passando as variáveis do banco, e depois no JavaScript colocar essa variáveis em outras variáveis, e passar para o MarkerArray para colocar outro ponto na tela!-->
+
+
+    <?php
+    // Conexão com o banco de dados
+    $conn = mysqli_connect('127.0.0.1', 'root', '', 'db_maps');
+
+    // Consulta SQL para obter as informações do banco
+    $sql = "SELECT nome, telefone, endereco, foto, link , latitude, longitude FROM t_cadastro";
+
+    // Executa a consulta e armazena os resultados em um array
+    $resultado = mysqli_query($conn, $sql);
+    $dados = mysqli_fetch_all($resultado, MYSQLI_ASSOC);
+
+    // Converte os dados para o formato JSON
+    $json = json_encode($dados);
+    ?>
+
+
+
+
+
+
+
+
+
+
     <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGfsr1MLtt0mYOVw_7n6YBYyUQgr0HpTQ&callback=initMap">
     </script>
+    
     <script>
         function initMap() {
 
+            var dados = <?php echo $json; ?>;
             // Map option
 
             var options = {
@@ -59,44 +88,35 @@
 
             //Add Markers to Array
 
+            // $.ajax({
+            //     type: "POST",
+            //     url: "http://localhost/turismo/teste-maps/conexao.php",
+            //     dataType: "json",
+            //     success: function(data) {
+
+            //         let nome = data.nome
+            //         let telefone = data.telefone
+            //         console.log(nome)
+            //     }
+            // });
+
             let MarkerArray = [{
-                    location: {
-                        lat: -22.75797,
-                        lng: -47.3535
-                    },
-                    content: `<img src="img/botanico.jpg" width="400" height="300" alt="foto">
-                            <br> 
-                            <h2>Jardim Botânico</h2>
-                            <p> Endereço: Av. Brasil Sul, 400 - Parque Res. Nardini, Americana - SP, 13465-810</p>
-                            <p> Telefone: (19) 3407-4452 </p> `
-                },
+                //     location: {
+                //         lat: -22.75797,
+                //         lng: -47.3535
+                //     },
+                //     content: `<img src="img/botanico.jpg" width="400" height="300" alt="foto">
+                //             <br> 
+                //             <h2>Jardim Botânico</h2>
+                //             <p> Endereço: Av. Brasil Sul, 400 - Parque Res. Nardini, Americana - SP, 13465-810</p>
+                //             <p> Telefone: (19) 3407-4452 </p> `
+                // }
 
-                {
-                    location: {
-                        lat: -22.7533,
-                        lng: -47.3528
-                    },
-                    content: `<img src="img/ecologico.jpg" width="400" height="300" alt="foto"> <br> <h2>Parque Ecológico</h2> <p>Endereço: Av. Brasil, 2525 - Jardim Ipiranga, Americana - SP, 13468-000</p> <p>Telefone: (19) 3406-2075 </p>`
-                },
+                //aqui havia um código gigante que eu tirei eu funcionou seila como ?????
+                //location: lat: latitude, lng: longitude
+                //content: informaçoes do local
 
-                {
-                    location: {
-                        lat: -22.6950,
-                        lng: -47.3031
-                    },
-                    content: `<img src="img/casarao.jpg" width="400" height="300" alt="foto"> <br> <h2>Museu Casarão</h2> <p> Endereço: Av. Nicolau João Abdalla, 5005 - Vila Bertini, Americana - SP, 13473-625 </p> <p> Telefone: (19) 3469-1898 </p>`
-                },
-
-                {
-                    location: {
-                        lat: -22.7148,
-                        lng: -47.3294
-                    },
-                    content: `<img src="img/muller.jpg" width="400" height="300" <br> <h2>Casa de Cultura Hermann Müller</h2> <p>Endereço: R. Carioba, 2001 - Carioba, Americana - SP, 13472-560</p> <p>Telefone: (19) 3462-6048</p>`
                 }
-
-
-
             ]
 
             // loop through marker
@@ -109,11 +129,22 @@
 
             function addMarker(property) {
 
-                const marker = new google.maps.Marker({
-                    position: property.location,
-                    map: map,
-                    //icon: property.imageIcon
-                });
+                // const marker = new google.maps.Marker({
+                //     position: property.location,
+                //     map: map,
+                //     //icon: property.imageIcon
+                // });
+
+                for (var i = 0; i < dados.length; i++) {
+                    var ponto = dados[i];
+                    var marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(ponto.latitude, ponto.longitude),
+                        map: map,
+                        title: ponto.nome,
+                        
+                    });
+                }
+
 
                 // Check for custom Icon
 
