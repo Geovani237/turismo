@@ -19,7 +19,7 @@
 
     <?php
     // Conexão com o banco de dados
-    $conn = mysqli_connect('127.0.0.1', 'root', '', 'db_turismo');
+    $conn = mysqli_connect('127.0.0.1', 'root', '', 'db_maps');
 
     // Consulta SQL para obter as informações do banco
     $sql = "SELECT nome, telefone, endereco, foto, link , latitude, longitude FROM t_cadastro";
