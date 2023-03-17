@@ -20,7 +20,7 @@
 
             <label>
                 Foto:
-                <input type="text" name="foto" id="foto">
+                <input type="file" name="foto" id="foto">
             </label><br>
 
             <label>
