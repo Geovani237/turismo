@@ -1,7 +1,7 @@
 <?php include_once "header.php" ?>
 
 <body>
-    <form method="POST" action="inserir-local.php">
+    <form method="POST" action="inserir-local.php" enctype="multipart/form-data">
         <div>
             <label>
                 Nome do Local:

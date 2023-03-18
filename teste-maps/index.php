@@ -30,6 +30,25 @@
 
     // Converte os dados para o formato JSON
     $json = json_encode($dados);
+
+
+    $marcas = [];
+    while($dados = mysqli_fetch_assoc($resultado)){
+        $local = ['location' => [
+            'lat'=> $dados["latitude"],
+            'lng'=>  $dados["longitude"]
+        ],
+        'content'=> '<img src="img/'. $dados["foto"] .'" width="400" height="300" alt="foto">
+            <br> 
+            <h2>Jardim Botânico</h2>
+            <p> Endereço: Av. Brasil Sul, 400 - Parque Res. Nardini, Americana - SP, 13465-810</p>
+            <p> Telefone: (19) 3407-4452 </p> '
+        ];
+        array_push($marcas, $local);
+    }
+    
+    $jsonMarcas = json_encode($marcas);
+
     ?>
 
 
@@ -100,28 +119,42 @@
             //     }
             // });
 
-            let MarkerArray = [{
-                //     location: {
-                //         lat: -22.75797,
-                //         lng: -47.3535
-                //     },
-                //     content: `<img src="img/botanico.jpg" width="400" height="300" alt="foto">
-                //             <br> 
-                //             <h2>Jardim Botânico</h2>
-                //             <p> Endereço: Av. Brasil Sul, 400 - Parque Res. Nardini, Americana - SP, 13465-810</p>
-                //             <p> Telefone: (19) 3407-4452 </p> `
-                // }
+            let MarkerArray = <?php echo $jsonMarcas;?>;
+
+            // let MarkerArray = [{
+            //          location: {
+            //              lat: -22.75797,
+            //              lng: -47.3535
+            //          },
+            //          content: `<img src="img/botanico.jpg" width="400" height="300" alt="foto">
+            //                  <br> 
+            //                 <h2>Jardim Botânico</h2>
+            //                  <p> Endereço: Av. Brasil Sul, 400 - Parque Res. Nardini, Americana - SP, 13465-810</p>
+            //                   <p> Telefone: (19) 3407-4452 </p> `
+                //  }
 
                 //aqui havia um código gigante que eu tirei eu funcionou seila como ?????
                 //location: lat: latitude, lng: longitude
                 //content: informaçoes do local
 
-                }
-            ]
+            //     }
+            // ]
+
+            let marcas = <?php echo $json2;?>;
+            console.dir(marcas);
+            for (var i = 0; i < marcas.length; i++) {
+                
+            }
+
+            //console.dir(MarkerArray)
+            //console.dir(MarkerArray2)
+            console.log("eita")
+
 
             // loop through marker
             for (let i = 0; i < MarkerArray.length; i++) {
                 addMarker(MarkerArray[i]);
+                console.log("oi")
 
             }
 
@@ -129,21 +162,21 @@
 
             function addMarker(property) {
 
-                // const marker = new google.maps.Marker({
-                //     position: property.location,
-                //     map: map,
-                //     //icon: property.imageIcon
-                // });
+                const marker = new google.maps.Marker({
+                    position: property.location,
+                    map: map,
+                    //icon: property.imageIcon
+                });
 
-                for (var i = 0; i < dados.length; i++) {
-                    var ponto = dados[i];
-                    var marker = new google.maps.Marker({
-                        position: new google.maps.LatLng(ponto.latitude, ponto.longitude),
-                        map: map,
-                        title: ponto.nome,
+                // for (var i = 0; i < dados.length; i++) {
+                //     var ponto = dados[i];
+                //     var marker = new google.maps.Marker({
+                //         position: new google.maps.LatLng(ponto.latitude, ponto.longitude),
+                //         map: map,
+                //         title: ponto.nome,
                         
-                    });
-                }
+                //     });
+                // }
 
 
                 // Check for custom Icon
