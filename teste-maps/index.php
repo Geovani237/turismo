@@ -18,6 +18,8 @@
 
 
     <?php
+
+   
     // Conexão com o banco de dados
     $conn = mysqli_connect('127.0.0.1', 'root', '', 'db_maps');
 
@@ -46,11 +48,17 @@
         ];
         array_push($marcas, $local);
     }
-    
+    echo $dados["nome"];
+    echo $dados["latitude"];
+    echo $dados["longitude"];
+    echo $dados["endereco"];
+    echo $dados["telefone"];
+
     $jsonMarcas = json_encode($marcas);
 
     ?>
 
+    
 
 
 
@@ -144,12 +152,14 @@
             console.dir(marcas);
             for (var i = 0; i < marcas.length; i++) {
                 // aparentemente é aqui onde devo pegar os dados do array;
-                
+                console.log(<?php echo $dados["nome"]; ?>)
             }
 
-        
-            //console.dir(MarkerArray)
-            //console.dir(MarkerArray2)
+
+              
+    
+            // console.dir(MarkerArray)
+            // console.dir(MarkerArray2)
             console.log("eita")
 
 
