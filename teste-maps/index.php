@@ -39,10 +39,10 @@
             'lng'=>  $dados["longitude"]
         ],
         'content'=> '<img src="img/'. $dados["foto"] .'" width="400" height="300" alt="foto">
-            <br> 
-            <h2>Jardim Botânico</h2>
-            <p> Endereço: Av. Brasil Sul, 400 - Parque Res. Nardini, Americana - SP, 13465-810</p>
-            <p> Telefone: (19) 3407-4452 </p> '
+            <br>
+            <h2>'. $dados["nome"] .' </h2>
+            <p>'. $dados["endereco"] .'</p>
+            <p>'. $dados["telefone"] .'</p> '
         ];
         array_push($marcas, $local);
     }
@@ -140,12 +140,14 @@
             //     }
             // ]
 
-            let marcas = <?php echo $json2;?>;
+            let marcas = <?php echo $json;?>;
             console.dir(marcas);
             for (var i = 0; i < marcas.length; i++) {
+                // aparentemente é aqui onde devo pegar os dados do array;
                 
             }
 
+        
             //console.dir(MarkerArray)
             //console.dir(MarkerArray2)
             console.log("eita")
@@ -154,7 +156,6 @@
             // loop through marker
             for (let i = 0; i < MarkerArray.length; i++) {
                 addMarker(MarkerArray[i]);
-                console.log("oi")
 
             }
 
