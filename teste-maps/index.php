@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Maps Api</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        a {
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -42,7 +47,7 @@
                 'lat' => $dados["latitude"],
                 'lng' =>  $dados["longitude"]
             ],
-            'content' => '<img src="' . $dados["foto"] . '" width="400" height="300" alt="foto">
+            'content' => '<a href='. $dados["link"] . ' target="_blank" ><img src="' . $dados["foto"] . '" width="400" height="300" alt="foto"> </a>
             <br>
             <h2>' . $dados["nome"] . ' </h2>
             <p>' . $dados["endereco"] . '</p>

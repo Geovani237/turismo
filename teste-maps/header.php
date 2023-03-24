@@ -10,12 +10,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
 </head>
-
 <body>
-<section class="vh-100 fundo">
-        <div class="container py-5 h-100">
-            <div class="row d-flex justify-content-center align-items-center h-100">
-                <h1>Locais</h1>
-                <div class="col col-xl-10">
-                    <div class="card">
-                        <div class="card-body p-5">
+
+                            
