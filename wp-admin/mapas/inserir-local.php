@@ -19,10 +19,10 @@ move_uploaded_file($_FILES["foto"]["tmp_name"],$nomeNovo);
 
 
 
-$sql = "INSERT into t_cadastro (nome,telefone,endereco,foto,link,longitude,latitude) VALUES('$nome', '$telefone','$endereco','$nomeNovo','$link','$longitude','$latitude')";
+$sql = "INSERT into t_cadastro (nome,telefone,endereco,foto,link,longitude,latitude) VALUES('$nome', '$telefone','$endereco','../wp-admin/mapas/$nomeNovo','$link','$longitude','$latitude')";
 
 mysqli_query($conexao, $sql);
 mysqli_close($conexao);
 
-header('location: index.php');
+header('location: ../../teste-maps/index.php');
 ?>

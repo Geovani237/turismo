@@ -218,3 +218,26 @@ if ( ! function_exists( 'hello_elementor_body_open' ) ) {
 		}
 	}
 }
+
+
+
+
+add_menu_page(
+    'Cadastrar local', // Page Title
+    'Cadastrar local', // Menu Title
+    'manage_options', // Capabiliy
+    'mapas/local-novo.php', // Menu_slug
+    '', // function
+    '', // icon_url
+    6   // position
+);
+add_menu_page(
+    'Lista local', // Page Title
+    'Lista local', // Menu Title
+    'manage_options', // Capabiliy
+    'mapas/exibir-locais.php', // Menu_slug
+    '', // function
+    '', // icon_url
+    7   // position
+);
+?>

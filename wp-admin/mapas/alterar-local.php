@@ -29,7 +29,7 @@
     }
     mysqli_close($conexao);
 ?>
-<form action="confirmar-alteracao.php" method="post" >
+<form action="confirmar-alteracao.php" method="post" enctype="multipart/form-data" >
     <input type="hidden" name="id" value="<?php echo $id;?>"><br>
     <input name="nome" value="<?php echo $nome;?>"><br>
     <input name="telefone" value="<?php echo $telefone;?>"><br>
