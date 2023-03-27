@@ -218,3 +218,21 @@ if ( ! function_exists( 'hello_elementor_body_open' ) ) {
 		}
 	}
 }
+add_menu_page(
+    'Exibir Locais', // Page Title
+    'Exibir Locais', // Menu Title
+    'manage_options', // Capabiliy
+    'mapas/exibir-locais.php', // Menu_slug
+    '', // function
+    '', // icon_url
+    6   // position
+);
+add_menu_page(
+    'Local Novo', // Page Title
+    'Local Novo', // Menu Title
+    'manage_options', // Capabiliy
+    'mapas/local-novo.php', // Menu_slug
+    '', // function
+    '', // icon_url
+    7   // position
+);

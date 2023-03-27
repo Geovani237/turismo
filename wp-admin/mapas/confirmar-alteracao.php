@@ -12,7 +12,6 @@ $latitude = $_POST['latitude'];
 
 $nomeDoArquivo = $_FILES["foto"]["name"];
 
-echo $nomeDoArquivo;
 
 
 
