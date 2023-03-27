@@ -1,0 +1,146 @@
+[2023-03-17 22:52:28] [LOG] O plugin foi ativado
+[2023-03-17 22:52:30] [ERROR] Desligado
+[2023-03-17 22:52:30] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 36
+)
+
+[2023-03-17 22:52:30] [ERROR] Ocorreu um erro antes de solicitar o desligamento (mas não foi registrado no registro de backup/restauração)
+[2023-03-17 22:52:30] [ERROR] Mensagem de erro:Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-03-17 22:52:30] [ERROR] Arquivo/linha de erro:C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php|36
+[2023-03-17 22:52:30] [ERROR] Desligado
+[2023-03-17 22:52:30] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 36
+)
+
+[2023-03-17 22:52:30] [ERROR] Ocorreu um erro antes de solicitar o desligamento (mas não foi registrado no registro de backup/restauração)
+[2023-03-17 22:52:30] [ERROR] Mensagem de erro:Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-03-17 22:52:30] [ERROR] Arquivo/linha de erro:C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php|36
+[2023-03-17 22:52:30] [ERROR] Desligado
+[2023-03-17 22:52:30] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+    [file] => C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 1171
+)
+
+[2023-03-17 22:52:30] [ERROR] Ocorreu um erro antes de solicitar o desligamento (mas não foi registrado no registro de backup/restauração)
+[2023-03-17 22:52:30] [ERROR] Mensagem de erro:Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+[2023-03-17 22:52:30] [ERROR] Arquivo/linha de erro:C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php|1171
+[2023-03-17 22:52:30] [ERROR] Desligado
+[2023-03-17 22:52:30] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 36
+)
+
+[2023-03-17 22:52:30] [ERROR] Ocorreu um erro antes de solicitar o desligamento (mas não foi registrado no registro de backup/restauração)
+[2023-03-17 22:52:30] [ERROR] Mensagem de erro:Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-03-17 22:52:30] [ERROR] Arquivo/linha de erro:C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php|36
+[2023-03-17 22:52:30] [ERROR] Desligado
+[2023-03-17 22:52:30] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 36
+)
+
+[2023-03-17 22:52:30] [ERROR] Ocorreu um erro antes de solicitar o desligamento (mas não foi registrado no registro de backup/restauração)
+[2023-03-17 22:52:30] [ERROR] Mensagem de erro:Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-03-17 22:52:30] [ERROR] Arquivo/linha de erro:C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php|36
+[2023-03-17 22:52:30] [ERROR] Desligado
+[2023-03-17 22:52:30] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 36
+)
+
+[2023-03-17 22:52:30] [ERROR] Ocorreu um erro antes de solicitar o desligamento (mas não foi registrado no registro de backup/restauração)
+[2023-03-17 22:52:30] [ERROR] Mensagem de erro:Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-03-17 22:52:30] [ERROR] Arquivo/linha de erro:C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php|36
+[2023-03-17 22:52:30] [ERROR] Desligado
+[2023-03-17 22:52:30] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 36
+)
+
+[2023-03-17 22:52:30] [ERROR] Ocorreu um erro antes de solicitar o desligamento (mas não foi registrado no registro de backup/restauração)
+[2023-03-17 22:52:30] [ERROR] Mensagem de erro:Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-03-17 22:52:30] [ERROR] Arquivo/linha de erro:C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php|36
+[2023-03-17 22:52:30] [ERROR] Desligado
+[2023-03-17 22:52:30] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 36
+)
+
+[2023-03-17 22:52:30] [ERROR] Ocorreu um erro antes de solicitar o desligamento (mas não foi registrado no registro de backup/restauração)
+[2023-03-17 22:52:30] [ERROR] Mensagem de erro:Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-03-17 22:52:30] [ERROR] Arquivo/linha de erro:C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php|36
+[2023-03-17 22:52:31] [ERROR] Desligado
+[2023-03-17 22:52:31] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 36
+)
+
+[2023-03-17 22:52:31] [ERROR] Ocorreu um erro antes de solicitar o desligamento (mas não foi registrado no registro de backup/restauração)
+[2023-03-17 22:52:31] [ERROR] Mensagem de erro:Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-03-17 22:52:31] [ERROR] Arquivo/linha de erro:C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php|36
+[2023-03-17 22:52:35] [ERROR] Desligado
+[2023-03-17 22:52:35] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+    [file] => C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 1171
+)
+
+[2023-03-17 22:52:35] [ERROR] Ocorreu um erro antes de solicitar o desligamento (mas não foi registrado no registro de backup/restauração)
+[2023-03-17 22:52:35] [ERROR] Mensagem de erro:Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+[2023-03-17 22:52:35] [ERROR] Arquivo/linha de erro:C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php|1171
+[2023-03-17 22:52:40] [ERROR] Desligado
+[2023-03-17 22:52:40] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+    [file] => C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 1171
+)
+
+[2023-03-17 22:52:40] [ERROR] Ocorreu um erro antes de solicitar o desligamento (mas não foi registrado no registro de backup/restauração)
+[2023-03-17 22:52:40] [ERROR] Mensagem de erro:Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+[2023-03-17 22:52:40] [ERROR] Arquivo/linha de erro:C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php|1171
+[2023-03-17 22:52:45] [ERROR] Desligado
+[2023-03-17 22:52:45] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+    [file] => C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 1171
+)
+
+[2023-03-17 22:52:45] [ERROR] Ocorreu um erro antes de solicitar o desligamento (mas não foi registrado no registro de backup/restauração)
+[2023-03-17 22:52:45] [ERROR] Mensagem de erro:Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+[2023-03-17 22:52:45] [ERROR] Arquivo/linha de erro:C:\xampp\htdocs\wordpress\wp-content\plugins\backup-backup\includes\ajax.php|1171
+[2023-03-17 22:53:59] [LOG] O plugin foi desativado
