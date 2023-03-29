@@ -22,7 +22,7 @@ $nomeNovo = $pasta . round(microtime(true)) . "." . end($extensao);
 move_uploaded_file($_FILES["foto"]["tmp_name"],$nomeNovo);
 
 if($nomeDoArquivo != ""){
-    $sqlAlterar = "update t_cadastro set nome = '$nome', telefone = '$telefone', endereco = '$endereco',foto = '$nomeNovo' ,link = '$link', longitude = '$longitude', latitude = '$latitude' where id = $id";
+    $sqlAlterar = "update t_cadastro set nome = '$nome', telefone = '$telefone', endereco = '$endereco',foto = '../wp-admin/mapas/$nomeNovo' ,link = '$link', longitude = '$longitude', latitude = '$latitude' where id = $id";
 }else{
     $sqlAlterar = "update t_cadastro set nome = '$nome', telefone = '$telefone', endereco = '$endereco',link = '$link', longitude = '$longitude', latitude = '$latitude' where id = $id";
 }
