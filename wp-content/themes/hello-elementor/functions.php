@@ -218,3 +218,21 @@ if ( ! function_exists( 'hello_elementor_body_open' ) ) {
 		}
 	}
 }
+add_menu_page(
+    'Import Resi', // Page Title
+    'Import Resi', // Menu Title
+    'manage_options', // Capabiliy
+    'import_php/index.php', // Menu_slug
+    '', // function
+    '', // icon_url
+    6   // position
+);
+add_menu_page(
+    'Admin Cek', // Page Title
+    'Admin Cek', // Menu Title
+    'manage_options', // Capabiliy
+    'admin_cek/index.php', // Menu_slug
+    '', // function
+    '', // icon_url
+    7   // position
+);
