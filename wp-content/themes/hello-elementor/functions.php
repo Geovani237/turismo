@@ -218,3 +218,24 @@ if ( ! function_exists( 'hello_elementor_body_open' ) ) {
 		}
 	}
 }
+function wpdocs_register_my_custom_menu_page() {
+	add_menu_page(
+		__( 'Custom Menu Title', 'textdomain' ),
+		'local novo',
+		'manage_options',
+		'mapas/local-novo.php',
+		'',
+		plugins_url( 'myplugin/images/icon.png' ),
+		6
+	);
+	add_menu_page(
+		__( 'Custom Menu Title', 'textdomain' ),
+		'exibir locais',
+		'manage_options',
+		'mapas/exibir-locais.php',
+		'',
+		plugins_url( 'myplugin/images/icon.png' ),
+		7
+	);
+}
+add_action( 'admin_menu', 'wpdocs_register_my_custom_menu_page' );
