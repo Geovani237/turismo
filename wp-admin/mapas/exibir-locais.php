@@ -18,7 +18,7 @@
                 <h1>Lista de Locais</h1>
                 <div class="card">
                     <div class="card-body p-5">
-                        <table class="table table-hover">
+                        <table class="table table-hover table-bordered">
                             <?php
                             include "conexao.php";
                             $sqlBusca = "select * from t_cadastro";
