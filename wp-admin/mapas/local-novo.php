@@ -18,42 +18,57 @@
 
                         <form method="POST" action="inserir-local.php" enctype="multipart/form-data">
                             <div>
-                                <label>
-                                    Nome do Local:
-                                    <input type="text" name="nome" id="nome">
-                                </label><br>
 
-                                <label>
-                                    Telefone:
-                                    <input type="text" name="telefone" id="telefone">
-                                </label><br>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">Nome do Local</span>
+                                    </div>
+                                    <input type="text" name="nome" id="nome" class="form-control" placeholder="Local" aria-label="Usuário" aria-describedby="basic-addon1">
+                                </div>
 
-                                <label>
-                                    Endereço:
-                                    <input type="text" name="endereco" id="endereco">
-                                </label><br>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">Telefone</span>
+                                    </div>
+                                    <input type="text" name="telefone" id="telefone" class="form-control" placeholder="(00)00000-0000" aria-label="Usuário" aria-describedby="basic-addon1">
+                                </div>
 
-                                <label>
-                                    Foto:
-                                    <input type="file" name="foto" id="foto">
-                                </label><br>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">Endereço</span>
+                                    </div>
+                                    <input type="text" name="endereco" id="endereco" class="form-control" placeholder="Endereço" aria-label="Usuário" aria-describedby="basic-addon1">
+                                </div>
 
-                                <label>
-                                    Link:
-                                    <input type="text" name="link" id="link">
-                                </label><br>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">Foto</span>
+                                    </div>
+                                    <input type="file" name="foto" id="foto" class="form-control" aria-label="Usuário" aria-describedby="basic-addon1">
+                                </div>
 
-                                <label>
-                                    Longitude:
-                                    <input type="text" name="longitude" id="longitude">
-                                </label><br>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">Link</span>
+                                    </div>
+                                    <input type="text" name="link" id="link" class="form-control" placeholder="Link Oficial do local" aria-label="Usuário" aria-describedby="basic-addon1">
+                                </div>
 
-                                <label>
-                                    Latitude:
-                                    <input type="text" name="latitude" id="latitude">
-                                </label><br>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">Longitude</span>
+                                    </div>
+                                    <input type="text" name="longitude" id="longitude" class="form-control" aria-label="Usuário" aria-describedby="basic-addon1">
+                                </div>
 
-                                <button type="submit">Cadastrar</button>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">Latitude</span>
+                                    </div>
+                                    <input type="text" name="latitude" id="latitude" class="form-control" aria-label="Usuário" aria-describedby="basic-addon1">
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Cadastrar</button>
                             </div>
                         </form>
                     </div>
