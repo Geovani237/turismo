@@ -42,12 +42,21 @@
     $marcas = [];
     while ($dados = mysqli_fetch_assoc($resultado)) {
 
+
+        $link = $dados["link"];
+
+        if ($dados["link"] == "") {
+            $link = "$";
+        } else {
+            $link = $dados["link"];
+        }
+    
         $local = [
             'location' => [
                 'lat' => $dados["latitude"],
                 'lng' =>  $dados["longitude"]
             ],
-            'content' => '<a href='. $dados["link"] . ' target="_blank"><img src="' . $dados["foto"] . '" width="400" height="300" alt="foto"> </a>
+            'content' => '<a href='. $link . ' target="_blank"><img src="' . $dados["foto"] . '" width="400" height="300" alt="foto"> </a>
             <br>
             <h2>' . $dados["nome"] . ' </h2>
             <p>' . $dados["endereco"] . '</p>

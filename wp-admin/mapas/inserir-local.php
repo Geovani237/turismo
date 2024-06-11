@@ -19,7 +19,9 @@ move_uploaded_file($_FILES["foto"]["tmp_name"],$nomeNovo);
 
 
 
-$sql = "INSERT INTO t_cadastro(nome,telefone,endereco,foto,link,longitude,latitude) VALUES('$nome', '$telefone','$endereco','../wp-admin/mapas/$nomeNovo','$link','$longitude','$latitude')";
+$sql = "INSERT INTO t_cadastro (nome,telefone,endereco,foto,link,longitude,latitude) VALUES ('$nome', '$telefone','". addslashes($endereco) . "','../wp-admin/mapas/$nomeNovo','$link','$longitude','$latitude')";
+
+
 
 mysqli_query($conexao, $sql);
 mysqli_close($conexao);

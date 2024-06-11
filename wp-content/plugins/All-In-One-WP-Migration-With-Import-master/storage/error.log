@@ -1282,6 +1282,7 @@ Apr 03 2023 00:02:49
 Apr 03 2023 00:02:49
 {"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"D:\\XAMPP\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
 
+<<<<<<< HEAD
 Apr 30 2023 15:25:47
 {"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"D:\\XAMPP\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
 
@@ -1317,4 +1318,119 @@ Apr 30 2023 15:26:13
 
 Apr 30 2023 15:26:14
 {"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"D:\\XAMPP\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+=======
+Apr 25 2023 23:22:10
+{"type":8192,"message":"Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-includes\\Requests\\Utility\\CaseInsensitiveDictionary.php","line":91}
+
+Apr 25 2023 23:22:11
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:11
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:12
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:12
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:13
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:13
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:14
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:14
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:15
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:15
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:16
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:16
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:17
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:17
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:18
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:18
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:19
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:19
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:19
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:37
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:37
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:42
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:43
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:44
+{"Number":8192,"Message":"Creation of dynamic property Ai1wm_Database_Mysqli::$old_replace_raw_values is deprecated","File":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\database\\class-ai1wm-database.php","Line":300}
+
+Apr 25 2023 23:22:44
+{"Number":8192,"Message":"Creation of dynamic property Ai1wm_Database_Mysqli::$new_replace_raw_values is deprecated","File":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\database\\class-ai1wm-database.php","Line":321}
+
+Apr 25 2023 23:22:44
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+Apr 25 2023 23:22:46
+{"type":8192,"message":"Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-includes\\Requests\\Utility\\CaseInsensitiveDictionary.php","line":91}
+
+Apr 25 2023 23:22:46
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+May 03 2023 01:16:46
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+May 03 2023 01:16:46
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+May 03 2023 01:16:46
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+May 03 2023 01:16:47
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+May 03 2023 01:16:47
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+May 03 2023 01:16:52
+{"Number":2,"Message":"rmdir(C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\storage\\bwnxxsku1gj6): Directory not empty","File":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filesystem\\class-ai1wm-directory.php","Line":60}
+
+May 03 2023 01:16:52
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+
+May 03 2023 01:16:58
+{"Number":2,"Message":"filesize(): stat failed for C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\storage\\bwnxxsku1gj6\\localhost-turismo-20230503-011646-804.wpress","File":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\archiver\\class-ai1wm-archiver.php","Line":217}
+
+May 03 2023 01:16:58
+{"type":8192,"message":"Return type of Ai1wm_Recursive_Newline_Filter::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\xampp\\htdocs\\turismo\\wp-content\\plugins\\All-In-One-WP-Migration-With-Import-master\\lib\\vendor\\servmask\\filter\\class-ai1wm-recursive-newline-filter.php","line":28}
+>>>>>>> 91036695dbb931c751c3436cf9c7c19779488470
 
