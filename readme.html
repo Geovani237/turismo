@@ -1,97 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta name="viewport" content="width=device-width" />
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>WordPress &#8250; ReadMe</title>
-	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
-</head>
-<body>
-<h1 id="logo">
-	<a href="https://wordpress.org/"><img alt="WordPress" src="wp-admin/images/wordpress-logo.png" /></a>
-</h1>
-<p style="text-align: center">Semantic Personal Publishing Platform</p>
+🗺️ Portal de Turismo de Americana-SP
 
-<h2>First Things First</h2>
-<p>Welcome. WordPress is a very special project to me. Every developer and contributor adds something unique to the mix, and together we create something beautiful that I am proud to be a part of. Thousands of hours have gone into WordPress, and we are dedicated to making it better every day. Thank you for making it part of your world.</p>
-<p style="text-align: right">&#8212; Matt Mullenweg</p>
+Site institucional de turismo da cidade de Americana (SP) com um mapa interativo dos pontos turísticos, alimentado por um painel administrativo próprio integrado ao WordPress.
 
-<h2>Installation: Famous 5-minute install</h2>
-<ol>
-	<li>Unzip the package in an empty directory and upload everything.</li>
-	<li>Open <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> in your browser. It will take you through the process to set up a <code>wp-config.php</code> file with your database connection details.
-		<ol>
-			<li>If for some reason this does not work, do not worry. It may not work on all web hosts. Open up <code>wp-config-sample.php</code> with a text editor like WordPad or similar and fill in your database connection details.</li>
-			<li>Save the file as <code>wp-config.php</code> and upload it.</li>
-			<li>Open <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> in your browser.</li>
-		</ol>
-	</li>
-	<li>Once the configuration file is set up, the installer will set up the tables needed for your site. If there is an error, double check your <code>wp-config.php</code> file, and try again. If it fails again, please go to the <a href="https://wordpress.org/support/forums/">WordPress support forums</a> with as much data as you can gather.</li>
-	<li><strong>If you did not enter a password, note the password given to you.</strong> If you did not provide a username, it will be <code>admin</code>.</li>
-	<li>The installer should then send you to the <a href="wp-login.php">login page</a>. Sign in with the username and password you chose during the installation. If a password was generated for you, you can then click on &#8220;Profile&#8221; to change the password.</li>
-</ol>
+    Projeto desenvolvido durante o curso técnico, entre fevereiro e junho de 2023.
 
-<h2>Updating</h2>
-<h3>Using the Automatic Updater</h3>
-<ol>
-	<li>Open <span class="file"><a href="wp-admin/update-core.php">wp-admin/update-core.php</a></span> in your browser and follow the instructions.</li>
-	<li>You wanted more, perhaps? That&#8217;s it!</li>
-</ol>
+✨ Funcionalidades
 
-<h3>Updating Manually</h3>
-<ol>
-	<li>Before you update anything, make sure you have backup copies of any files you may have modified such as <code>index.php</code>.</li>
-	<li>Delete your old WordPress files, saving ones you&#8217;ve modified.</li>
-	<li>Upload the new files.</li>
-	<li>Point your browser to <span class="file"><a href="wp-admin/upgrade.php">/wp-admin/upgrade.php</a>.</span></li>
-</ol>
+Para o visitante
 
-<h2>Migrating from other systems</h2>
-<p>WordPress can <a href="https://wordpress.org/support/article/importing-content/">import from a number of systems</a>. First you need to get WordPress installed and working as described above, before using <a href="wp-admin/import.php">our import tools</a>.</p>
+    Páginas de atrativos turísticos, eventos, hotéis, "quem somos" e contato
+    Mapa interativo com marcadores dos pontos turísticos (Jardim Botânico, Parque Ecológico e outros)
+    Ao clicar em um marcador, abre uma janela com foto, endereço, telefone e link do local
 
-<h2>System Requirements</h2>
-<ul>
-	<li><a href="https://secure.php.net/">PHP</a> version <strong>5.6.20</strong> or greater.</li>
-	<li><a href="https://www.mysql.com/">MySQL</a> version <strong>5.0</strong> or greater.</li>
-</ul>
+Para o administrador
 
-<h3>Recommendations</h3>
-<ul>
-	<li><a href="https://secure.php.net/">PHP</a> version <strong>7.4</strong> or greater.</li>
-	<li><a href="https://www.mysql.com/">MySQL</a> version <strong>5.7</strong> or greater OR <a href="https://mariadb.org/">MariaDB</a> version <strong>10.3</strong> or greater.</li>
-	<li>The <a href="https://httpd.apache.org/docs/2.2/mod/mod_rewrite.html">mod_rewrite</a> Apache module.</li>
-	<li><a href="https://wordpress.org/news/2016/12/moving-toward-ssl/">HTTPS</a> support.</li>
-	<li>A link to <a href="https://wordpress.org/">wordpress.org</a> on your site.</li>
-</ul>
+    Cadastro, listagem, edição e exclusão de locais (CRUD completo)
+    Cada local tem nome, telefone, endereço, link, latitude e longitude
+    Upload de foto do local, com renomeação automática do arquivo por timestamp
+    Telas de gestão acessíveis diretamente pelo menu do painel do WordPress
 
-<h2>Online Resources</h2>
-<p>If you have any questions that are not addressed in this document, please take advantage of WordPress&#8217; numerous online resources:</p>
-<dl>
-	<dt><a href="https://wordpress.org/support/">HelpHub</a></dt>
-		<dd>HelpHub is the encyclopedia of all things WordPress. It is the most comprehensive source of information for WordPress available.</dd>
-	<dt><a href="https://wordpress.org/news/">The WordPress Blog</a></dt>
-		<dd>This is where you&#8217;ll find the latest updates and news related to WordPress. Recent WordPress news appears in your administrative dashboard by default.</dd>
-	<dt><a href="https://planet.wordpress.org/">WordPress Planet</a></dt>
-		<dd>The WordPress Planet is a news aggregator that brings together posts from WordPress blogs around the web.</dd>
-	<dt><a href="https://wordpress.org/support/forums/">WordPress Support Forums</a></dt>
-		<dd>If you&#8217;ve looked everywhere and still cannot find an answer, the support forums are very active and have a large community ready to help. To help them help you be sure to use a descriptive thread title and describe your question in as much detail as possible.</dd>
-	<dt><a href="https://make.wordpress.org/support/handbook/appendix/other-support-locations/introduction-to-irc/">WordPress <abbr>IRC</abbr> (Internet Relay Chat) Channel</a></dt>
-		<dd>There is an online chat channel that is used for discussion among people who use WordPress and occasionally support topics. The above wiki page should point you in the right direction. (<a href="https://web.libera.chat/#wordpress">irc.libera.chat #wordpress</a>)</dd>
-</dl>
+Os pontos do mapa não ficam fixos no código: tudo o que o administrador cadastra aparece automaticamente no mapa.
+🛠️ Tecnologias
+Camada 	Tecnologias
+Site e páginas 	WordPress, Elementor, tema Hello Elementor
+Mapa 	Google Maps JavaScript API (Markers e InfoWindow)
+Back-end do painel 	PHP (mysqli)
+Banco de dados 	MySQL
+Interface do painel 	HTML, CSS, Bootstrap 5, Bootstrap Icons
+Ambiente 	XAMPP (Apache + MySQL), All-in-One WP Migration
+⚙️ Como funciona
 
-<h2>Final Notes</h2>
-<ul>
-	<li>If you have any suggestions, ideas, or comments, or if you (gasp!) found a bug, join us in the <a href="https://wordpress.org/support/forums/">Support Forums</a>.</li>
-	<li>WordPress has a robust plugin <abbr>API</abbr> (Application Programming Interface) that makes extending the code easy. If you are a developer interested in utilizing this, see the <a href="https://developer.wordpress.org/plugins/">Plugin Developer Handbook</a>. You shouldn&#8217;t modify any of the core code.</li>
-</ul>
+flowchart LR
+    A[Administrador] -->|cadastra local + foto| B[Painel no WP Admin<br/>PHP]
+    B -->|INSERT / UPDATE / DELETE| C[(MySQL<br/>t_cadastro)]
+    C -->|SELECT| D[index.php do mapa]
+    D -->|json_encode| E[JavaScript<br/>Google Maps API]
+    E -->|marcadores + janelas| F[Visitante]
 
-<h2>Share the Love</h2>
-<p>WordPress has no multi-million dollar marketing campaign or celebrity sponsors, but we do have something even better&#8212;you. If you enjoy WordPress please consider telling a friend, setting it up for someone less knowledgeable than yourself, or writing the author of a media article that overlooks us.</p>
+    O administrador cadastra um local pelo painel, informando os dados e as coordenadas.
+    O PHP grava as informações no MySQL e salva a foto no servidor.
+    Na página do mapa, o PHP lê todos os locais e os envia ao JavaScript em formato JSON.
+    O JavaScript cria um marcador para cada local, com sua janela de informações.
 
-<p>WordPress is the official continuation of <a href="http://cafelog.com/">b2/caf&#233;log</a>, which came from Michel V. The work has been continued by the <a href="https://wordpress.org/about/">WordPress developers</a>. If you would like to support WordPress, please consider <a href="https://wordpress.org/donate/">donating</a>.</p>
+📁 Onde está o código próprio
 
-<h2>License</h2>
-<p>WordPress is free software, and is released under the terms of the <abbr>GPL</abbr> (GNU General Public License) version 2 or (at your option) any later version. See <a href="license.txt">license.txt</a>.</p>
+A maior parte do repositório é o núcleo padrão do WordPress. O código desenvolvido por mim está nestes locais:
+Caminho 	O que faz
+teste-maps/index.php 	Página do mapa: busca os locais no banco e gera os marcadores
+teste-maps/maps.js 	Configuração do mapa (centro em Americana, zoom e marcadores)
+wp-admin/mapas/local-novo.php 	Formulário de cadastro de local
+wp-admin/mapas/inserir-local.php 	Grava o novo local e faz o upload da foto
+wp-admin/mapas/exibir-locais.php 	Lista os locais cadastrados
+wp-admin/mapas/alterar-local.php 	Formulário de edição
+wp-admin/mapas/confirmar-alteracao.php 	Salva a edição (com troca opcional de foto)
+wp-admin/mapas/excluir-local.php 	Remove um local
+wp-content/themes/hello-elementor/functions.php 	Função com o hook admin_menu e add_menu_page que adiciona as telas ao painel do WordPress
+🚀 Como executar localmente
+Pré-requisitos
 
-</body>
-</html>
+    XAMPP (Apache + MySQL + PHP)
+    Uma chave da Google Maps JavaScript API com faturamento ativo no Google Cloud
+
+Passo a passo
+
+    Clone o repositório dentro da pasta htdocs do XAMPP:
+
+    git clone https://github.com/Geovani237/turismo.git
+
+    Inicie o Apache e o MySQL pelo painel do XAMPP.
+
+    No phpMyAdmin, crie o banco do mapa e a tabela de locais:
+
+    CREATE DATABASE db_maps;
+    USE db_maps;
+
+    CREATE TABLE t_cadastro (
+        id        INT AUTO_INCREMENT PRIMARY KEY,
+        nome      VARCHAR(150) NOT NULL,
+        telefone  VARCHAR(20),
+        endereco  VARCHAR(255),
+        foto      VARCHAR(255),
+        link      VARCHAR(255),
+        latitude  DECIMAL(10, 7) NOT NULL,
+        longitude DECIMAL(10, 7) NOT NULL
+    );
+
+    Configure a conexão com o banco em teste-maps/conexao.php e wp-admin/mapas/conexao.php.
+
+    Em teste-maps/index.php, substitua SUA_CHAVE_AQUI pela sua chave da Google Maps API.
+
+    Configure o WordPress pelo wp-config.php (a partir do wp-config-sample.php) e acesse:
+        Site: http://localhost/turismo
+        Mapa: http://localhost/turismo/teste-maps
+        Painel: http://localhost/turismo/wp-admin → menus "local novo" e "exibir locais"
+
+📚 Aprendizados e melhorias futuras
+
+Este foi um dos meus primeiros projetos. Hoje eu faria algumas coisas de forma diferente:
+
+    Segurança no banco: usar prepared statements (mysqli_prepare) em vez de montar o SQL com os dados do formulário, evitando SQL Injection.
+    Validação do upload: aceitar apenas arquivos de imagem e limitar o tamanho.
+    Configuração: ler as credenciais do banco e a chave da API de variáveis de ambiente, sem deixá-las no código.
+    Organização: transformar o painel em um plugin do WordPress, em vez de colocar arquivos dentro de wp-admin, e usar a classe $wpdb do próprio WordPress.
+    Usuário do banco: usar um usuário com permissões restritas, em vez do root.
+
+👤 Autor
+
+Geovani Carlos de Souza
+[LinkedIn](https://www.linkedin.com/in/geovanicarlosdesouza)
