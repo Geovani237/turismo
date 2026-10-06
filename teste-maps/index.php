@@ -49,7 +49,7 @@
     }
     $jsonMarcas = json_encode($marcas, JSON_NUMERIC_CHECK);
     ?>
-    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGfsr1MLtt0mYOVw_7n6YBYyUQgr0HpTQ&callback=initMap">
+    <script defer src="SUA_CHAVE_AQUI">
     </script>
     <script>
         function initMap() {
